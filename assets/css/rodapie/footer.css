@@ -23,11 +23,12 @@
 }
 
 .footer__portfolio{
-    border-bottom: solid 1px;
+    border-bottom: solid 1px black;
     transition: 300ms;
 }
 .footer__portfolio:hover{
     color: #fff;
+    border-bottom: solid 1px white;
 }
 
 /* The company logo */
