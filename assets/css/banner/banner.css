@@ -1,0 +1,17 @@
+.banner {
+    position: relative;
+    
+}
+
+.banner__imagen {
+    background: url('../../img/HatchfulExport-All/bannerHe.jpg') no-repeat center / cover;
+    width: 100%;
+    height: calc(100vh - 72px);
+}
+
+/* Responsive  */
+@media screen and (max-width:1024px) {
+    .banner__imagen {
+        height: calc(50vh - 51px);
+    }
+}

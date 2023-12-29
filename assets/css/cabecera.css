@@ -1,0 +1,27 @@
+.cabecera {
+    position: sticky;
+    top: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: white;
+}
+
+/* Responsive Tablet  */
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .cabecera {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* Responsive Mobile */
+@media screen and (max-width:767px) {
+    .cabecera {
+        padding: 0;
+        justify-content: space-around;
+    }
+}

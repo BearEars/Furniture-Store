@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+section {
+    scroll-margin-top: 135px;
+}
+
+/* Responsive tablet */
+@media screen and (min-width:768px) and (max-width:1024px) {
+   *{
+    font-size: medium;
+   }
+}
+
+/* Responsive mobile */
+@media screen and (max-width:767px) {
+    *{
+        font-size: small;
+    }
+}

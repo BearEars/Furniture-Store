@@ -1,0 +1,37 @@
+.sobre{
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+.sobre__titulo {
+    color: #DA2B1F;
+    font-family: 'Playball', cursive;
+    font-weight: 600;
+    font-size: 3.1875rem;
+    
+
+}
+
+.sobre__descripcion{
+    color: #8C8888;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+
+/* Responsive Tablet  */
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .cabecera {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+}
+
+/* Responsive Mobile */
+@media screen and (max-width:767px) {
+    .sobre__titulo{
+        font-size: 2.5rem;
+    }
+}
